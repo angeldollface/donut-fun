@@ -6,6 +6,9 @@ Licensed under the MIT license.
 // Importing the three.js library.
 import * as THREE from 'three';
 
+// Importing the orbit controls.
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+
 // A function to render our rotating donut.
 export function renderDonuts(): void {
 
@@ -83,12 +86,19 @@ export function renderDonuts(): void {
 
     // We add the renderer to the document.
     document.body.appendChild(renderer.domElement);
+    
+    // Orbit controls so visitors can play around with different
+    // perspectives.
+    const controls = new OrbitControls( camera, renderer.domElement );
 
     // Defining a render loop function.
     const frameUpdate = () => {
 
         // Updating the scene on every frame bounce.
         window.requestAnimationFrame(frameUpdate);
+        
+        // Updating orbit controls on every frame bounce.
+        controls.update();
 
         // Rotating horizontally the donut 
         // on every frame bounce.
