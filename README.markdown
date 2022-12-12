@@ -10,11 +10,13 @@
 
 To view a live deployed version of this project, click here: [VIEW](https://angeldollface.art/donut-fun)
 
-## USAGE :hammer:
+## SHOWCASE :camera:
 
-- 1.) Visit [this link](https://angeldollface.art/donut-fun).
-- 2.) Move your mouse.
-- 3.) Enjoy. :heart_on_fire:
+![Showcase for Donut Fun.](/assets/donut-fun.gif)
+
+## LEARN AND RE-USE :thinking: :sparkles:
+
+If you want to understand how I've achieved this project, read the source code in the file `src/components/ModelCog.vue`.
 
 ## TRY THE CODE FOR YOURSELF! :inbox_tray:
 
