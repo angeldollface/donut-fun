@@ -6,6 +6,8 @@
 
 ## ABOUT :books:
 
+I recently saw a pretty amazing tweet about three.js and thought I'd try and imitate the website shown off in that tweet. This is the code for my attempt at such an imitation.
+
 ## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
 To view a live deployed version of this project, click here: [VIEW](https://angeldollface.art/donut-fun)
