@@ -20,7 +20,7 @@ export default defineComponent(
             // A function to render our rotating donut.
             renderDonuts(): void {
                 // The URL to our texture.
-                const textureURL: string = 'https://angeldollface.art/assets/images/matcaps/05.png';
+                const textureURL: string = 'https://angeldollface.art/doll-cdn/images/matcaps/05.png';
 
                 // Instantiating a new three.js color.
                 const sceneColor: THREE.Color = new THREE.Color(0xf0cce5);
