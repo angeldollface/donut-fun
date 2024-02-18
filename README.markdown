@@ -10,7 +10,7 @@ I recently saw a pretty amazing tweet about three.js and thought I'd try and imi
 
 ## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
-To view a live deployed version of this project, click here: [VIEW](https://angeldollface.art/donut-fun)
+To view a live deployed version of this project, click here: [VIEW](https://angeldollface.boo/donut-fun)
 
 ## SHOWCASE :camera:
 
